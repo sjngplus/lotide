@@ -19,9 +19,9 @@ const assertArraysEqual = function(arr1, arr2) {
   }
 };
 
-let newArray = [];
 
-const flatten = function(nestedArrays) {    
+const flatten = function(nestedArrays) {
+  let newArray = [];
   return(recursiveFlatten(nestedArrays, newArray));  
 };
 
@@ -37,6 +37,6 @@ const recursiveFlatten = function(nestedArrays, newArray) {
   return newArray;
 };
 
-console.log(flatten([1, 2, [3, [3.2, [3.24, 3.26, 3.28], 3.6, 3.8], 4], 5, [6]])); // => [1, 2, 3, 4, 5, 6]
+console.log(flatten([1, 2, [3, [3.2, [3.24, 3.26, 3.28], 3.6, 3.8], 4], 5, [6, [7, 8, 9]]])); // => [1, 2, 3, 4, 5, 6]
 
 
