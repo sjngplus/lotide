@@ -37,6 +37,6 @@ const results1 = map(words, word => word[0]);
 console.log(results1);
 
 
-assertArraysEqual(map(words, word => word[0]), ['g', 'c', 't', 'm', 't']); // => true
-assertArraysEqual(map(words, word => word[0]), ["ground"]); // => false
+assertArraysEqual(results1, ['g', 'c', 't', 'm', 't']); // => true
+assertArraysEqual(results1, ["ground"]); // => false
 assertArraysEqual(map(lighthouses, word => word[0]), ["G", "P", "C", "D", "C", "P", "K"]); // => true
