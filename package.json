@@ -1,8 +1,8 @@
 {
   "name": "@sj_ngnpm/lotide",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "lotide project - a lite version of the lodash library and its functions",
-  "main": "assertArraysEqual.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
