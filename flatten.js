@@ -37,6 +37,8 @@ const recursiveFlatten = function(nestedArrays, newArray) {
   return newArray;
 };
 
+module.exports = flatten;
+
 console.log(flatten([1, 2, [3, [3.2, [3.24, 3.26, 3.28], 3.6, 3.8], 4], 5, [6, [7, 8, 9]]])); // => [1, 2, 3, 4, 5, 6]
 
 
