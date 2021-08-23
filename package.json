@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
-  "version": "1.0.0",
-  "description": "w1 lotide project",
+  "name": "@sj_ngnpm/lotide",
+  "version": "1.0.1",
+  "description": "lotide project - a lite version of the lodash library and its functions",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/sjngplus/lotide.git"
   },
-  "author": "",
+  "author": "Web Development bootcamp student at Lighthouse Labs",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sjngplus/lotide/issues"
